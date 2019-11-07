@@ -36,6 +36,7 @@ html, body
             {
                 font-family: $googleFontsHeebo;
                 text-transform: uppercase;
+                color: #ffffff;
             }
             nav
             {
@@ -53,6 +54,9 @@ html, body
                     text-transform: uppercase;
                     color: rgba(0,0,0,1);
                     font-family: $googleFontsHeebo;
+                    color: #ffffff;
+                    font-size: 1.5em;
+                    font-weight: bold;
                 }
             }
         }
