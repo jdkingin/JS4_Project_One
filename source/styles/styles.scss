@@ -1,0 +1,103 @@
+$valencia: rgba(214, 69, 65, 1); //Valencia -- Flatuicolopicker.com
+$oldBrick: rgba(150, 40, 27, 1); //Old Brick -- Flatuicolorpicker.com 
+$burntOrange: rgba(211, 84, 0, 0.7); //Burnt Orange -- Flatuicolorpicker.com
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+$googleFontsHeebo: 'Heebo', sans-serif;
+
+html, body
+{
+     width: 95%;
+     max-width: 960px;
+     min-width: 660px;
+     margin: auto;
+     //margin: 0;
+     padding: 0;
+     height: 100%;
+     background-color: $burntOrange;
+    
+    #container 
+    {
+    background-color: $valencia;
+    //border: 1px solid greenyellow; //For testing
+    min-height: 100%;
+    position: relative;
+        
+        #header
+        {
+            padding: 10px;
+            h1 + img 
+            {
+                width: 100%;
+                //float: left;
+                //margin-bottom: 10px;
+            }
+
+            header > h1 
+            {
+                font-family: $googleFontsHeebo;
+                text-transform: uppercase;
+            }
+            nav
+            {
+            //float: right;
+            border: 2px solid orange;
+            clear: both;
+            width: 100%;
+                a
+                {
+                    display: block;
+                    padding: 10px;
+                    text-decoration: none;
+                    background: $oldBrick;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: rgba(0,0,0,1);
+                    font-family: $googleFontsHeebo;
+                }
+            }
+        }
+        #body 
+        {
+            padding: 10px;
+            padding-bottom: 3em;
+            section p
+            {
+                padding: 0 20px;
+                clear: both;
+                font-family: $googleFontsHeebo;
+            }
+            p > img
+            {
+                padding: 10px 5px;
+                float: left;
+            }
+            article
+            {
+                padding-bottom: 20px;
+            }
+            #moreText
+            {
+                display: none;
+            }
+            .more
+            {
+                display: none;
+            }
+        }
+        #footer
+        {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 3em;
+            footer
+            {
+                background-color: rgba(0,0,0,1);
+                color: rgba(255, 255, 255, 1);
+                clear: both;
+                height: 100%;
+                font-family: $googleFontsHeebo;
+            }
+        }
+    }
+}
