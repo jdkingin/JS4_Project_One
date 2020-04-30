@@ -28,6 +28,6 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
